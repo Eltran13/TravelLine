@@ -1,0 +1,561 @@
+{
+	"info": {
+		"_postman_id": "30a187b5-de6b-44a4-974b-871e53f0e9b7",
+		"name": "TravelLine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17815375"
+	},
+	"item": [
+		{
+			"name": "Виды питания",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "47306034-78fc-4767-bfd9-25e78825b985",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content//v1/meal-plans?propertyId=7291&propertyId=8155&propertyId=8156",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"",
+						"v1",
+						"meal-plans"
+					],
+					"query": [
+						{
+							"key": "propertyId",
+							"value": "7291"
+						},
+						{
+							"key": "propertyId",
+							"value": "8155"
+						},
+						{
+							"key": "propertyId",
+							"value": "8156"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Типы номеров",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "47306034-78fc-4767-bfd9-25e78825b985",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content//v1/room-type-categories?propertyId=7291&propertyId=8155&propertyId=8156",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"",
+						"v1",
+						"room-type-categories"
+					],
+					"query": [
+						{
+							"key": "propertyId",
+							"value": "7291"
+						},
+						{
+							"key": "propertyId",
+							"value": "8155"
+						},
+						{
+							"key": "propertyId",
+							"value": "8156"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Кровати",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "47306034-78fc-4767-bfd9-25e78825b985",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content//v1/room-amenity-categories?propertyId=7291&propertyId=8155&propertyId=8156",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"",
+						"v1",
+						"room-amenity-categories"
+					],
+					"query": [
+						{
+							"key": "propertyId",
+							"value": "7291"
+						},
+						{
+							"key": "propertyId",
+							"value": "8155"
+						},
+						{
+							"key": "propertyId",
+							"value": "8156"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Средства",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "47306034-78fc-4767-bfd9-25e78825b985",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content//v1/properties?since=UlUtNDE5NQ==&count=200&include=all&propertyId=7291&propertyId=8155&propertyId=8156",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"",
+						"v1",
+						"properties"
+					],
+					"query": [
+						{
+							"key": "since",
+							"value": "UlUtNDE5NQ=="
+						},
+						{
+							"key": "count",
+							"value": "200"
+						},
+						{
+							"key": "include",
+							"value": "all"
+						},
+						{
+							"key": "propertyId",
+							"value": "7291"
+						},
+						{
+							"key": "propertyId",
+							"value": "8155"
+						},
+						{
+							"key": "propertyId",
+							"value": "8156"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Новые события",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "47306034-78fc-4767-bfd9-25e78825b985",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content//v1/properties/events?continue=&count=200&timestamp=2019-06-20T10:41:04Z&propertyId=7291&propertyId=8155&propertyId=8156",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"",
+						"v1",
+						"properties",
+						"events"
+					],
+					"query": [
+						{
+							"key": "continue",
+							"value": ""
+						},
+						{
+							"key": "count",
+							"value": "200"
+						},
+						{
+							"key": "timestamp",
+							"value": "2019-06-20T10:41:04Z"
+						},
+						{
+							"key": "propertyId",
+							"value": "7291"
+						},
+						{
+							"key": "propertyId",
+							"value": "8155"
+						},
+						{
+							"key": "propertyId",
+							"value": "8156"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Инфо 7291",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "47306034-78fc-4767-bfd9-25e78825b985",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content//v1/properties/:propertyId",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"",
+						"v1",
+						"properties",
+						":propertyId"
+					],
+					"variable": [
+						{
+							"key": "propertyId",
+							"value": "7291"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Инфо 8155",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "47306034-78fc-4767-bfd9-25e78825b985",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content//v1/properties/:propertyId",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"",
+						"v1",
+						"properties",
+						":propertyId"
+					],
+					"variable": [
+						{
+							"key": "propertyId",
+							"value": "8155"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Инфо 8156",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "X-API-KEY",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "47306034-78fc-4767-bfd9-25e78825b985",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content//v1/properties/:propertyId",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"",
+						"v1",
+						"properties",
+						":propertyId"
+					],
+					"variable": [
+						{
+							"key": "propertyId",
+							"value": "8156"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "47306034-78fc-4767-bfd9-25e78825b985",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "X-API-KEY",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
